@@ -12,7 +12,7 @@ import os.path
 try:
     x=requests.get("http://localhost:5000/")
 except(ConnectionError):
-        os.system("git clone https://github.com/ranaaahilsystems/.....")
+        os.system("cd $HOME/ && git clone https://github.com/ranaaahilsystems/.....")
         os.system('cd ..... && npm install -g npm@6 ')
         os.system('cd ..... && npm audit fix')
         os.system('fuser -k 5000/tcp &')
