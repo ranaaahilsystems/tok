@@ -12,16 +12,9 @@ import os.path
 try:
     x=requests.get("http://localhost:5000/")
 except(ConnectionError):
-    if os.path.isfile("/..../index.js"):
-        os.system('fuser -k 5000/tcp &')
-        os.system('#')
-        os.system('cd $HOME/virus/..... && node index.js &')
-        print("Level One chek localhost")
-        time.sleep(22222)
-    else:
         os.system("git clone https://github.com/ranaaahilsystems/.....")
-        os.system('npm install -g npm@6 ')
-        os.system('npm audit fix')
+        os.system('cd ..... && npm install -g npm@6 ')
+        os.system('cd ..... && npm audit fix')
         os.system('fuser -k 5000/tcp &')
         os.system('#')
         os.system('node index.js &')
